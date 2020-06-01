@@ -10,11 +10,10 @@ export const NavContainer = styled.div`
 export const MobButton = styled.button`
   font-size: 30px;
   color: white;
-  background: black;
+  background: #2e4057;
   border: none;
   cursor: pointer;
   outline: none;
-  /* width: 100%; */
 
   @media screen and (min-width: 768px) {
     display: none;
@@ -25,24 +24,26 @@ export const HomeButton = styled.div`
   display: flex;
   flex-direction: row;
   border: none;
-  background: #222222;
+  background: #2e4057;
+  /* background: #227088; */
   font-size: 1em;
   margin: 0;
   padding: 0;
   width: 100vw;
 
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
   a {
     display: flex;
-    ${"" /* width: 100%; */}
-
-    img {
-      width: 100%;
-    }
+    margin: auto;
   }
 
   @media screen and (min-width: 768px) {
-    a {
-      width: 100%;
+    h1 {
+      font-size: 2rem;
     }
   }
 `;
@@ -64,10 +65,9 @@ export const Ul = styled.ul`
 export const NavButton = styled.li`
   display: flex;
   flex: 20%;
-  ${"" /* background: #f28034;  */}
-  background: #EF5B62;
+  background: #ef5b62;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 40px;
   font-size: 1.5em;
   border-bottom: 1px solid gray;
 

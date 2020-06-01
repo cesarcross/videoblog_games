@@ -10,7 +10,7 @@ import {
   NavButton,
 } from "./Navbar.style";
 import { FaAlignRight } from "react-icons/fa";
-import navBanner from "../../assets/images/navbanner2.jpg";
+// import navBanner from "../../assets/images/navbanner2.jpg";
 
 const Navbar = ({ setVideos }) => {
   const [toggle, setToggle] = useState(false);
@@ -21,7 +21,7 @@ const Navbar = ({ setVideos }) => {
     <NavContainer>
       <HomeButton>
         <Link onClick={() => setVideos([...videoLinks].reverse())} to="/">
-          <img src={navBanner} alt="Logo" />
+          <h1>Video Games Gallery</h1>
         </Link>
         <MobButton onClick={() => setToggle(!toggle)}>
           <FaAlignRight />

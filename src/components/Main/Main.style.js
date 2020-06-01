@@ -73,8 +73,8 @@ export const SearchBar = styled.input`
   margin: 10px auto;
   padding: 1rem 1rem 1rem 3.5rem;
   width: 70vw;
-  ${"" /* background: #0095ef; */}
-  background:  #1b296b;
+  background: #ef5b62;
+  /* background:  #1b296b; */
   border: none;
   border-radius: 3px;
   outline: none;
@@ -84,7 +84,9 @@ export const SearchBar = styled.input`
   }
 
   &:hover {
-    background: #2b3c7f;
+    /* background: #2b3c7f;
+     */
+    background: #ef6e72;
     transition: background 0.5s;
   }
 
