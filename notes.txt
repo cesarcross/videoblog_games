@@ -1,0 +1,48 @@
+Done:
+
+01 - Navbar
+02 - Body (color)
+03 - Footer
+04 - Emboddied videos
+05 - Grid
+06 - Routes
+07 - Pagination
+08 - Contact form
+09 - SearchBar
+15 - Tags
+
+To do:
+
+09 - Monetização
+10 - Login (social networks)
+11 - Hosting (Cloudflare, Firebase...)
+12 - Insert Ads
+13 - Responsividade
+14 - Integração p/ pagamentos
+15 - Texto de descrição do vídeo
+16 - Domínio
+17 - Criar email para encaminhamento das mensagens do formulário
+
+========================================
+Ajustes de conteudo:
+
+- incluir titulo nos videos
+- incluir likes
+- definir fonte, tamanho, cores
+
+Nome to blog
+MemorialCorinthians
+PoderosoTimao
+TimaoEterno
+CorinthiansEterno
+Mitos do Timao
+Vitorias Corinthianas
+Vitorias do Timao
+Corinthians Invicto
+
+
+PicPay
+BuymeaCoffee
+Bitcoin
+Pagarme
+PagSeguro
