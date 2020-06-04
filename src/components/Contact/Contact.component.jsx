@@ -27,6 +27,12 @@ const Contact = () => (
         method="POST"
       >
         <h1>Contato</h1>
+        <input
+          name="_redirect"
+          type="hidden"
+          id="name"
+          value="https://videoblog-games.now.sh/"
+        />
         <input name="name" type="text" id="name" placeholder="Name" />
         <input name="email" type="email" id="email" placeholder="Email" />
         <textarea
